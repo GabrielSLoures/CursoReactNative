@@ -1,12 +1,25 @@
 import React from "react";
-import { Text } from "react-native";
+import { SafeAreaView } from "react-native";
 
-function App() {
+//import PrimeiroComponente from "./components/Primeiro";
+//import {Comp1, Comp2, Comp3} from "./components/Multi";
+import Estilo from "./components/estilo"
+//import MaxMin from "./components/MaxMin";
+import Aleatorio from "./components/Aleatorio";
 
-    const saudacao = <Text>Olá Mundo</Text>
+export default () => 
 
-    return saudacao
+(
+    <SafeAreaView style={Estilo.App}>
+        {/* <PrimeiroComponente/>
+        <Comp1/>
+        <Comp2/>
+        <Comp3/>
+        <MaxMin max={30} min={10}/>
+        <MaxMin max={100} min={0}/> */}
+        <Aleatorio min={1} max={10}/>
+        <Aleatorio min={1} max={1000}/>
+    </SafeAreaView>
+)
 
-}
 
-export default App;
