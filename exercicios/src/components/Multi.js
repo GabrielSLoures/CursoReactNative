@@ -1,6 +1,5 @@
 import React from "react";
 import { Text } from "react-native"
-import Estilo from "./estilo"
 
 function Comp1(){
     return <Text>Comp1</Text>
