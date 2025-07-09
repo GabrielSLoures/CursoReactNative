@@ -7,12 +7,12 @@ export default props => {
    return (
         <View style={Estilo.formatacaoBotoes}>
             <Button
-                    title="-"
-                    onPress={props.dec}
+                title="-"
+                onPress={props.dec}
             />
             <Button
-                    title="+"
-                    onPress={props.inc}
+                title="+"
+                onPress={props.inc}
             />
         </View>
    )

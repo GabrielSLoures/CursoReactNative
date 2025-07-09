@@ -17,11 +17,14 @@ export default StyleSheet.create({
 
     formatacaoBotoes: {
         flexDirection: "row",
+        paddingVertical: 10,
+        
     },
     
     display: {
         backgroundColor: "#000",
-        paddingHorizontal: 100
+        paddingHorizontal: 100,
+        paddingVertical: 10
     },
     textoDisplay: {
         color: "#fff",
