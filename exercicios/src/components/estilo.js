@@ -13,6 +13,20 @@ export default StyleSheet.create({
     txtStyle: {
         fontSize: 34,
         textAlign: "center"
+    },
+
+    formatacaoBotoes: {
+        flexDirection: "row",
+    },
+    
+    display: {
+        backgroundColor: "#000",
+        paddingHorizontal: 100
+    },
+    textoDisplay: {
+        color: "#fff",
+        fontSize: 34
     }
+    
 
 })

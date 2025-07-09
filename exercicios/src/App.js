@@ -8,7 +8,9 @@ import Estilo from "./components/estilo"
 //import Aleatorio from "./components/Aleatorio";
 //import Titulo from "./components/Frag";
 //import Botao from "./components/Botao";
-import Contador from "./components/Contador";
+//import Contador from "./components/Contador";
+//import ContadorV2 from "./components/contador/ContadorV2";
+import Diferenciar from "./components/Diferenciar";
 
 export default () => 
 
@@ -23,8 +25,10 @@ export default () =>
         <Aleatorio min={1} max={10}/>
         <Aleatorio min={1} max={1000}/>
         <Titulo primeiro="Cadastro Produto" segundo="Tela de Cadastro do Produto"/> 
-        <Botao/>*/}
+        <Botao/>
         <Contador inicial={0}/>
+        <ContadorV2/>*/}
+        <Diferenciar/>
     </SafeAreaView>
 )
 

@@ -1,4 +1,4 @@
-import React, { use, useState, Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import { Text, Button } from "react-native";
 
 export default props => {
