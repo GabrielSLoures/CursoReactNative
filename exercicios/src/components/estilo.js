@@ -29,7 +29,19 @@ export default StyleSheet.create({
     textoDisplay: {
         color: "#fff",
         fontSize: 34
+    },
+
+    FlexBoxV1: {
+        flex: 1,
+        backgroundColor: "#999",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "100%",
+        flexDirection: "row"
+    },
+
+    NumerosMega: {
+        
     }
-    
 
 })

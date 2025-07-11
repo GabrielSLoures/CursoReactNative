@@ -16,9 +16,10 @@ import Estilo from "./components/estilo"
 //import Membro from "./components/relacao/Membro";
 //import UsuarioLogado from "./components/renderizacaoCondicional/UsuarioLogado";
 //import ListaProdutos from "./components/produtos/ListaProdutos";
-import ListaProdutosFlatList from "./components/produtos/ListaProdutosFlatList";
-import DigiteSeuNome from "./components/DigiteSeuNome";
-
+//import ListaProdutosFlatList from "./components/produtos/ListaProdutosFlatList";
+//import DigiteSeuNome from "./components/DigiteSeuNome";
+//import FlexBoxV1 from "./components/layout/FlexBoxV1";
+import Mega from "./components/mega/Mega";
 
 export default () => 
 
@@ -47,8 +48,10 @@ export default () =>
         <UsuarioLogado usuario={{nome: "Gabriel"}}/>
         <UsuarioLogado usuario={{email: "gabriel.loures1908@gmail.com"}}/>
         <ListaProdutos/>
-        <ListaProdutosFlatList/>*/}
+        <ListaProdutosFlatList/>
         <DigiteSeuNome/>
+        <FlexBoxV1/>*/}
+        <Mega/>
     </SafeAreaView>
 )
 
